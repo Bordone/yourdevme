@@ -1,0 +1,10 @@
+.content{
+    display: flex;
+    order: 2;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    order: 2;
+}

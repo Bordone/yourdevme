@@ -1,18 +1,20 @@
-import { useMatches, Outlet } from '@remix-run/react';
-import { QuizHeader } from './QuizHeader';
+import {  Outlet } from '@remix-run/react';
 import { HomeHeader } from './HomeHeader';
+import styles from './homeheader.css'
 
+
+export const links= () => {
+  return[{rel: 'stylesheet', href: styles}]
+}
 
 export default function Test() {
-  
-  const matches = useMatches();
-  let result = matches.length;
-  console.log( matches);
 
   return (
     <>
-    {matches[result-1].pathname ==='/quiz' ? <QuizHeader /> : <HomeHeader />}
+     <HomeHeader/>
+     <div className='body'>
      <Outlet />
+     </div>
     </>
   );
 }
