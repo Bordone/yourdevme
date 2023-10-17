@@ -1,5 +1,5 @@
 import type { MetaFunction } from '@remix-run/cloudflare';
-import styles from './index.css';
+import styles from './index.client.css';
 export const meta: MetaFunction = () => {
   return [
     { title: 'New Remix App' },
