@@ -3,7 +3,7 @@ import { HomeHeader } from './HomeHeader';
 import styles from './homeheader.css'
 
 
-export const links= () => {
+export const links = () => {
   return[{rel: 'stylesheet', href: styles}]
 }
 
