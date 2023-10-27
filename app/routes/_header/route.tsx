@@ -12,9 +12,7 @@ export default function Test() {
   return (
     <>
      <HomeHeader/>
-     <div className='body'>
-     <Outlet />
-     </div>
+     <Outlet/>
     </>
   );
 }

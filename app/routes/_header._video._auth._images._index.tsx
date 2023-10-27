@@ -15,10 +15,19 @@ export default function Index() {
   return (
     <>
       <div className='content'>
-        <h1>Hello</h1>
+        <div className='h1'>
+          <h1>Hello</h1>
+        </div>
+        <div className='h2'>
         <h2>Remix</h2>
+        </div>
+        <div className='buttons'>
         <button>Navigate</button>
         <h3>Some description</h3>
+        </div>
+      </div>
+      <div className='content-button'>
+        <h1>Button</h1>
       </div>
     </>
   );

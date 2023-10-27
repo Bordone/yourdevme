@@ -1,0 +1,13 @@
+.auth {
+    max-width: 756px;
+    outline: solid green 1px;
+    order: 1;
+    grid-column: 1 / span 1;   /* start at column line 3 and span 1 column */
+    grid-row: 1 / span 2;     /* start at row line 1 and span 2 rows */
+}
+.auth-button {
+    order:4;
+    grid-column: 1;  /* position in the third column */
+    grid-row: 3;     /* position in the third row */
+}
+
